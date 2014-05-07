@@ -1,1 +1,0 @@
-/home/fuzzley/768_project/cuda-convnet/shownet.py
