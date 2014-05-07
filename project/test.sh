@@ -1,0 +1,1 @@
+python convnet.py --data-path=./data/data-batch --save-path=./checkpoints --test-range=1-2 --train-range=3-7 --data-provider=cifar --test-freq=13 --test-only=1 -f $1 | tee test.log

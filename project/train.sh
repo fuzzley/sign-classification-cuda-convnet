@@ -1,0 +1,1 @@
+python convnet.py --data-path=./data/data-batch --save-path=./checkpoints --test-range=1-2 --train-range=3-7 --layer-def=./layers.cfg --layer-params=./layer-params.cfg --data-provider=cifar --test-freq=13 | tee train.log

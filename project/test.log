@@ -1,0 +1,17 @@
+=========================
+Importing _ConvNet C++ module
+batch 1: ({'logprob': [156.6741195321083, 34.0]}, 4000)
+
+======================Test output======================
+logprob:  0.039169, 0.008500 
+------------------------------------------------------- 
+Layer 'conv1' weights[0]: 2.737744e-02 [3.352348e-06] 
+Layer 'conv1' biases: 1.374033e-03 [9.503088e-08] 
+Layer 'conv2' weights[0]: 1.015092e-02 [6.934377e-07] 
+Layer 'conv2' biases: 1.149400e-03 [6.742773e-08] 
+Layer 'local3' weights[0]: 1.671845e-02 [8.096978e-07] 
+Layer 'local3' biases: 2.923549e-04 [2.404058e-08] 
+Layer 'local4' weights[0]: 1.680290e-02 [7.748689e-07] 
+Layer 'local4' biases: 5.727352e-04 [5.801894e-08] 
+Layer 'fc10' weights[0]: 8.025403e-03 [1.329224e-06] 
+Layer 'fc10' biases: 1.490241e-02 [1.502528e-06] 
