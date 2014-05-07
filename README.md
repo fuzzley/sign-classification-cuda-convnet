@@ -7,7 +7,7 @@ This was the final project for CSCE 768, Pattern Recognition.
 
 ###Prerequisites:
 
-1. Linux OS
+1. Linux-based OS (Ubuntu prefered)
 2. CUDA 6.0
 3. Python, python-numpy, python-magic, python-matplotlib
 4. atlaslib
