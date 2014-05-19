@@ -25,10 +25,10 @@ I included the files necessary to compile cuda-convnet under the "to_compile_cud
 1. Look over "gen-train-batches.cfg" inside the src folder and make sure the paths for image classes are correct
 2. In the terminal, start the python interpreter (just type in "python" and hit enter")
 3. Type in the following:
-3a. execfile("utils.py")
-3b. gen_batches_from_config("gen-train-batches.cfg")
-3c. After it finishes, type ctrl + d to exit python interpreter
-4. Your batches should now be in the "save_path" specified in "gen-train-batches.cfg"
+  execfile("utils.py"),
+  gen_batches_from_config("gen-train-batches.cfg"),
+4. After it finishes, type ctrl + d to exit python interpreter
+5. Your batches should now be in the "save_path" specified in "gen-train-batches.cfg"
 
 ###To train:
 1. Modify train.sh with paths to wherever cuda-convnet is installed, where your batches are saved, and which batches are training/testing
