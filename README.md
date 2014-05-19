@@ -33,7 +33,7 @@ I included the files necessary to compile cuda-convnet under the "to_compile_cud
 ###To train:
 1. Modify train.sh with paths to wherever cuda-convnet is installed, where your batches are saved, and which batches are training/testing
 2. In the terminal, type, "sh train.sh"
-3. To stop the training process at any time, type in ctrl + cfg
+3. To stop the training process at any time, type in ctrl + c
 
 ###To test:
 1. Modify test.sh with paths to wherever cuda-convnet is, as well as where the checkpoints are saved
