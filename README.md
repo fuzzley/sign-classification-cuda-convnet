@@ -37,4 +37,4 @@ I included the files necessary to compile cuda-convnet under the "to_compile_cud
 
 ###To test:
 1. Modify test.sh with paths to wherever cuda-convnet is, as well as where the checkpoints are saved
-2. In the terminal, type "sh.test.sh"
+2. In the terminal, type "sh test.sh"
